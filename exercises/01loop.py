@@ -15,6 +15,8 @@
 # > Hello there
 
 def p_times(statement, num):
-    return (statement + " ") * num 
-print(p_times('hello', 5 ))
+    # return (statement + " ") * num 
+    for i in range(num):
+        print(statement)
+print(p_times('hello', 4 ))
 
